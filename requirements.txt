@@ -1,0 +1,12 @@
+# Saturn Insight Studio - dependencies
+# Streamlit Community Cloud installs ONLY what is listed here (plus streamlit's
+# own deps). Missing this file is what caused the plotly/scipy ModuleNotFoundError.
+# Lower bounds chosen for stability; all have prebuilt wheels for Python 3.12 (Cloud default).
+
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+plotly>=5.22
+scipy>=1.11
+openpyxl>=3.1
+tabulate>=0.9
